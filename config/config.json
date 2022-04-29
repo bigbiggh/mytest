@@ -1,0 +1,29 @@
+{
+    "login info":
+        {
+            "url": "http://192.168.1.203",
+            "username": "admin",
+            "password": "123"
+        },
+    "login_api": "http://192.168.1.235/mes/cloud/v1/auth/oauth/token?grant_type=password&username=admin&password=Sailheader@2018&scope=app&client_id=mes-app&client_secret=AE02C169AC75470319AD1B12282E5C61",
+    "postgreSQL":
+    {
+        "database":"mesdb",
+        "user":"postgres",
+        "password":"Sailheader@2018",
+        "host":"192.168.1.203",
+        "port":"5432"
+    },
+    "Is_send_Email": "False",
+    "EMAIL_INFO": {
+        "host": "smtp.mxhichina.com",
+        "mail_user":"liam.guo@sailheader.com",
+        "mail_pass" : "liam@1234",
+        "sender" : "liam.guo@sailheader.com",
+        "receivers": [
+            "liam.guo@sailheader.com"
+        ]
+    },
+    "report_path":"../report/logs",
+    "test_data_path": "D:/项目测试/华达"
+}
